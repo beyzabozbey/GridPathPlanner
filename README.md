@@ -1,11 +1,12 @@
 # GridPathPlanner
 
-Forward A* and Adaptive A* for navigation in partially known environments
+Forward A* and Adaptive A* for navigation in partially known environments. For more detailed description, please see [proj.pdf](proj.pdf)
 
 ## Settings
 
 - `bool adaptive`: Determines whether the code should operate as Repeated Forward A* (if `adaptive = false`) or as Adaptive A* (`adaptive = true`)
-- `bool higher_g`: Determines whether the code should break ties in favor of cells with larger g-values (if `higher_g = true`) or smaller g-values (if `higher_g = false`)
+- `bool higher_g`: Determines whether the code should break ties in favor of cells with larger g-values \
+(if `higher_g = true`) or smaller g-values (if `higher_g = false`)
 
 You can change these variables in `main.cpp`
 
